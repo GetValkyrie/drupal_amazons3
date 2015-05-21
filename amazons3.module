@@ -1,5 +1,7 @@
 <?php
 
+require_once(dirname(__FILE__) . '/vendor/autoload.php');
+
 use Aws\Common\Credentials\Credentials;
 use Drupal\amazons3\Exception\S3ConnectValidationException;
 use Drupal\amazons3\S3Client;
@@ -19,6 +21,7 @@ function amazons3_stream_wrappers() {
   // This hook is called before hook_init(), so we have to manually register
   // the autoloader. We also need to handle module upgrades where
   // composer_manager might not be enabled yet.
+/*
   if (!module_exists('composer_manager')) {
     return array();
   }
@@ -38,7 +41,7 @@ function amazons3_stream_wrappers() {
     watchdog('amazons3', 'The AmazonS3 StreamWrapper class is missing. Make sure all module updates have run. Otherwise, run drush composer-rebuild and drush composer-manager update to update your vendor directory.');
     return array();
   }
-
+*/
   return array(
     's3' => array(
       'name' => 'Amazon S3',
