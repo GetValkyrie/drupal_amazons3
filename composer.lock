@@ -1,22 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "f9ade1e710782251e6ff18409479a060",
+    "hash": "abe79b8d07ebd2c35762289b11805ec1",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "2.8.2-p1",
+            "version": "2.8.5-p1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deviantintegral/aws-sdk-php.git",
-                "reference": "4dc341c9092d7ae13beb79b55bc052dc2ded8a48"
+                "reference": "5fc3cb7d73962b82a604edb459e1691f6a9a9f85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deviantintegral/aws-sdk-php/zipball/4dc341c9092d7ae13beb79b55bc052dc2ded8a48",
-                "reference": "4dc341c9092d7ae13beb79b55bc052dc2ded8a48",
+                "url": "https://api.github.com/repos/deviantintegral/aws-sdk-php/zipball/5fc3cb7d73962b82a604edb459e1691f6a9a9f85",
+                "reference": "5fc3cb7d73962b82a604edb459e1691f6a9a9f85",
                 "shasum": ""
             },
             "require": {
@@ -72,9 +73,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/deviantintegral/aws-sdk-php/tree/2.8.2-p1"
+                "source": "https://github.com/deviantintegral/aws-sdk-php/tree/2.8.5-p1"
             },
-            "time": "2015-05-01 13:34:17"
+            "time": "2015-05-19 14:02:44"
         },
         {
             "name": "capgemini/drupal_doctrine_cache",
@@ -686,6 +687,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }

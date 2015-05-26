@@ -573,79 +573,6 @@
         ]
     },
     {
-        "name": "aws/aws-sdk-php",
-        "version": "2.8.2-p1",
-        "version_normalized": "2.8.2.0-patch1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/deviantintegral/aws-sdk-php.git",
-            "reference": "4dc341c9092d7ae13beb79b55bc052dc2ded8a48"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/deviantintegral/aws-sdk-php/zipball/4dc341c9092d7ae13beb79b55bc052dc2ded8a48",
-            "reference": "4dc341c9092d7ae13beb79b55bc052dc2ded8a48",
-            "shasum": ""
-        },
-        "require": {
-            "guzzle/guzzle": "~3.7",
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "doctrine/cache": "~1.0",
-            "ext-openssl": "*",
-            "monolog/monolog": "~1.4",
-            "phpunit/phpunit": "~4.0",
-            "symfony/yaml": "~2.1"
-        },
-        "suggest": {
-            "doctrine/cache": "Adds support for caching of credentials and responses",
-            "ext-apc": "Allows service description opcode caching, request and response caching, and credentials caching",
-            "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
-            "monolog/monolog": "Adds support for logging HTTP requests and responses",
-            "symfony/yaml": "Eases the ability to write manifests for creating jobs in AWS Import/Export"
-        },
-        "time": "2015-05-01 13:34:17",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.7-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Aws": "src/"
-            }
-        },
-        "license": [
-            "Apache-2.0"
-        ],
-        "authors": [
-            {
-                "name": "Amazon Web Services",
-                "homepage": "http://aws.amazon.com"
-            }
-        ],
-        "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
-        "homepage": "http://aws.amazon.com/sdkforphp",
-        "keywords": [
-            "amazon",
-            "aws",
-            "cloud",
-            "dynamodb",
-            "ec2",
-            "glacier",
-            "s3",
-            "sdk"
-        ],
-        "support": {
-            "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
-            "issues": "https://github.com/aws/aws-sdk-php/issues",
-            "source": "https://github.com/deviantintegral/aws-sdk-php/tree/2.8.2-p1"
-        }
-    },
-    {
         "name": "capgemini/drupal_doctrine_cache",
         "version": "0.0.1-p1",
         "version_normalized": "0.0.1.0-patch1",
@@ -693,6 +620,79 @@
         ],
         "support": {
             "source": "https://github.com/deviantintegral/drupal-doctrine-cache/tree/0.0.1-p1"
+        }
+    },
+    {
+        "name": "aws/aws-sdk-php",
+        "version": "2.8.5-p1",
+        "version_normalized": "2.8.5.0-patch1",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/deviantintegral/aws-sdk-php.git",
+            "reference": "5fc3cb7d73962b82a604edb459e1691f6a9a9f85"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/deviantintegral/aws-sdk-php/zipball/5fc3cb7d73962b82a604edb459e1691f6a9a9f85",
+            "reference": "5fc3cb7d73962b82a604edb459e1691f6a9a9f85",
+            "shasum": ""
+        },
+        "require": {
+            "guzzle/guzzle": "~3.7",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "doctrine/cache": "~1.0",
+            "ext-openssl": "*",
+            "monolog/monolog": "~1.4",
+            "phpunit/phpunit": "~4.0",
+            "symfony/yaml": "~2.1"
+        },
+        "suggest": {
+            "doctrine/cache": "Adds support for caching of credentials and responses",
+            "ext-apc": "Allows service description opcode caching, request and response caching, and credentials caching",
+            "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+            "monolog/monolog": "Adds support for logging HTTP requests and responses",
+            "symfony/yaml": "Eases the ability to write manifests for creating jobs in AWS Import/Export"
+        },
+        "time": "2015-05-19 14:02:44",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Aws": "src/"
+            }
+        },
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Amazon Web Services",
+                "homepage": "http://aws.amazon.com"
+            }
+        ],
+        "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+        "homepage": "http://aws.amazon.com/sdkforphp",
+        "keywords": [
+            "amazon",
+            "aws",
+            "cloud",
+            "dynamodb",
+            "ec2",
+            "glacier",
+            "s3",
+            "sdk"
+        ],
+        "support": {
+            "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
+            "issues": "https://github.com/aws/aws-sdk-php/issues",
+            "source": "https://github.com/deviantintegral/aws-sdk-php/tree/2.8.5-p1"
         }
     }
 ]
